@@ -1,0 +1,5 @@
+<app-user-detail
+  *ngFor="let user of Users"
+  [user]="user"
+  (anyEvent)="printTheEvent($event)"
+></app-user-detail>
